@@ -1,0 +1,74 @@
+<!-- declaration refers to a DTD-->
+<!DOCTYPE html>
+
+<!-- Specifiying HTML language has English-->
+<html lang="en">
+
+<!--Head element-->
+<head>
+	<!-- The <meta> tag provides metadata about the HTML and Specify the character encoding for the HTML -->
+	<meta charset="UTF-8">
+	<!-- This meta tag provides metadata about the compatible with Internet explosers-->
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- Define a description of your web page -->
+	<meta name="description" content="Free Web tutorials">
+	<!--  Define keywords for search engines -->
+	<meta name="keywords" content="HTML,CSS,XML, XHTML,JavaScript">
+	<!-- Define the author of a page -->
+	<meta name="author" content="Gururaj">
+		<!-- Setting the viewport to make your website look good on all devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- It defines the title of the document-->
+	<title>JavaScript</title>
+	<!-- the script referances any external files called app.js -->
+	
+	<style type="text/css">
+	h1 {
+		text-align: center;
+	}
+
+	
+	
+	</style>
+	
+<!-- Head Ends here -->
+</head>
+<!-- Body of the html document starts here-->
+<body> 
+<div>
+<center>
+	
+	<!-- Paragraph to display on thml doc -->
+		<h1>MySelfie Tech</h1>
+		
+		<h4>Sign UP</h4>
+		 <input style="margin:10px" type="text" name="name" size="30" maxlength="100" placeholder="User name"></br>
+		  <input style="margin:10px"  type="text" name="Email" size="30" maxlength="100" placeholder="Email"></br>
+		  <input style="margin:10px"  type="text" name="Password" size="30" maxlength="100" placeholder="Password"></br>
+		
+		
+		<button style="margin:30px 0px 0px 10px"  name="SubmitQuery" type="button" onclick="SubmitQuery()">Submit Query</button>
+		<button style="margin:30px 0px 0px 10px" name="back" type="button" onclick="back()">back</button>
+		
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+	function SubmitQuery()
+	{
+		
+    }
+	function back()
+	{
+		var link = "index.html";
+		window.location.assign(link);
+	}
+	
+    </script>
+	
+	</center>
+</div>
+	
+<!-- Body of the html doc ends here -->
+</body>
+<!-- Html Ends here -->
+</html>
